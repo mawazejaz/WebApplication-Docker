@@ -1,0 +1,15 @@
+
+1.Install Docker Desktop 
+2.Create .net core MVC web api project with docker support Windows 
+
+3. install Linux on Windows with WSL
+https://learn.microsoft.com/en-us/windows/wsl/install
+wsl --update
+
+nstall Hyper-V on Windows 
+https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+
+Docker Desktop - Windows containers not enabled
+Containers feature is disabled. Enable it using the PowerShell script (in an administrative PowerShell) and restart your computer before using Docker Desktop:
+Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All
